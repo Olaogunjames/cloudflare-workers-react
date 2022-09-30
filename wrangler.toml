@@ -1,0 +1,8 @@
+name = "cloudflare-workers-react"
+account_id = 'replace with your cloudflare account ID'
+compatibility_date = "2022-09-19"
+usage_model = 'bundled'
+workers_dev = true
+main = "wrangler-site/index.js"
+[site]
+bucket = 'build'
